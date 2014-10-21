@@ -1,0 +1,51 @@
+/* Reset All */
+* {
+margin:0px;
+padding:0px;
+} 
+
+/* Fix for font-boosting problem on mobile devices */
+html * {max-height:1000000px;}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+body {
+	font-family: 'Open Sans', sans-serif !important;
+}
+ 
+img {
+    vertical-align: middle;
+}
+
+/* Fred Add-on class style */
+.clear {
+height:0px; 
+overflow:hidden; 
+display:block; 
+clear:both;
+visibility:hidden;
+}
+
+a, a img{
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;	
+}
+
+a img:hover{
+	opacity:.7;
+}
+
+.container {
+    width: 1170px;
+	max-width: 100%;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
