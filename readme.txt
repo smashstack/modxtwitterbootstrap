@@ -4,7 +4,7 @@
 $ ssh-keygen -t rsa -C "kris@smashstack.com"
 
 # Handy terminal commands
--- sass --watch assets/templates/default/css/stylesheet.scss:assets/templates/default/css/stylesheet.css --style compressed
+$ sass --watch assets/templates/default/css/stylesheet.scss:assets/templates/default/css/stylesheet.css --style compressed
 
 # HTML Setup Documentation: http://screencast.com/t/r17bvTMT4m
 
